@@ -100,3 +100,48 @@ nyc_taxi_pipeline/
 ├── README.md
 └── .gitignore
 
+
+---
+
+## 🖥️ How to Run
+
+```bash
+# Step 1 — Start Kafka & Zookeeper
+docker compose up -d
+
+# Step 2 — Run Kafka Producer
+python -m nyc_taxi_pipeline.producer.mysql_kafka_producer
+
+# Step 3 — Run Kafka Consumer
+python -m nyc_taxi_pipeline.consumer.kafka_snowflake_consumer
+
+---
+
+## ⚙️ Performance & Tuning
+
+- Batch size of **500 records** for efficient Snowflake inserts  
+- Kafka **consumer group support** for scalability  
+- **JSON serialization** for lightweight message transfer  
+- **Auto offset management** handled by Kafka  
+- Optimized Snowflake inserts using `executemany()`  
+
+---
+
+## 🎯 Project Use Cases
+
+- Real-time data ingestion pipelines  
+- Kafka-based **ETL / ELT** systems  
+- Snowflake streaming ingestion workflows  
+- Data Engineering interview showcase project  
+- Handling **millions of records** efficiently  
+
+---
+
+## 🚀 Future Enhancements
+
+- Dead Letter Queue (DLQ) for invalid records  
+- Kafka topic partitioning for higher scalability  
+- Airflow orchestration for pipeline scheduling  
+- Monitoring & alerting (consumer lag, throughput)  
+- Snowflake `COPY INTO` optimization using staged files  
+
