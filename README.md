@@ -80,4 +80,22 @@ Implemented in `utils/data_cleaner.py`
 ---
 
 ## 📂 Project Folder Structure
+**nyc_taxi_pipeline/
+│
+├── producer/
+│ └── mysql_kafka_producer.py # MySQL → Kafka producer
+│
+├── consumer/
+│ └── kafka_snowflake_consumer.py # Kafka → Snowflake consumer
+│
+├── utils/
+│ └── data_cleaner.py # Data validation & cleaning logic
+│
+├── config/
+│ └── settings.py # Kafka, MySQL, Snowflake configs
+│
+├── docker-compose.yml # Kafka & Zookeeper setup
+├── requirements.txt
+├── README.md
+└── .gitignore**
 
