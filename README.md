@@ -104,8 +104,7 @@ nyc_taxi_pipeline/
 ---
 
 ## 🖥️ How to Run
-
-```bash
+bash
 # Step 1 — Start Kafka & Zookeeper
 docker compose up -d
 
@@ -144,4 +143,5 @@ python -m nyc_taxi_pipeline.consumer.kafka_snowflake_consumer
 - Airflow orchestration for pipeline scheduling  
 - Monitoring & alerting (consumer lag, throughput)  
 - Snowflake `COPY INTO` optimization using staged files  
+
 
