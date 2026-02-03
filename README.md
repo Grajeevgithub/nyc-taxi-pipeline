@@ -80,7 +80,8 @@ Implemented in `utils/data_cleaner.py`
 ---
 
 ## 📂 Project Folder Structure
-**nyc_taxi_pipeline/
+
+nyc_taxi_pipeline/
 │
 ├── producer/
 │ └── mysql_kafka_producer.py # MySQL → Kafka producer
@@ -97,5 +98,5 @@ Implemented in `utils/data_cleaner.py`
 ├── docker-compose.yml # Kafka & Zookeeper setup
 ├── requirements.txt
 ├── README.md
-└── .gitignore**
+└── .gitignore
 
