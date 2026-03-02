@@ -14,7 +14,6 @@
 
 
 
-
 import json
 import mysql.connector
 from kafka import KafkaProducer
