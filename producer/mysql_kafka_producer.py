@@ -1,6 +1,4 @@
-
-
-
+ś
 
 
 import mysql.connector
