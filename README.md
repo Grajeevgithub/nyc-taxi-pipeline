@@ -137,7 +137,7 @@ python -m nyc_taxi_pipeline.consumer.kafka_snowflake_consumer
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Dead Letter Queue (DLQ) for invalid records  
 - Kafka topic partitioning for higher scalability  
