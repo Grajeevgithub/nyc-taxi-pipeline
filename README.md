@@ -127,7 +127,7 @@ python -m nyc_taxi_pipeline.consumer.kafka_snowflake_consumer
 
 ---
 
-## 🎯 Project Use Cases
+##  Project Use Cases
 
 - Real-time data ingestion pipelines  
 - Kafka-based **ETL / ELT** systems  
