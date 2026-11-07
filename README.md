@@ -38,7 +38,7 @@ To build an end-to-end streaming pipeline that:
 -  Record-level data cleaning before ingestion  
 -  Batch inserts for high-performance Snowflake loading  
 -  Fault-tolerant consumer with bad-record handling  
-- 🐳 Fully Dockerized Kafka & Zookeeper setup  
+-  Fully Dockerized Kafka & Zookeeper setup  
 - 📊 Production-ready project structure  
 
 ---
