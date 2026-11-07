@@ -2,14 +2,14 @@
 
 
 
-# 🚕 NYC Taxi Real-Time Data Pipeline (Kafka → Snowflake)
+# NYC Taxi Real-Time Data Pipeline (Kafka → Snowflake)
 
 This project demonstrates a complete **real-time Data Engineering pipeline** using **Kafka, Python, Docker, and Snowflake**.  
 NYC Yellow Taxi trip data is streamed, cleaned in real time, and loaded into Snowflake for analytics and reporting.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To build an end-to-end streaming pipeline that:
 - Extracts data from a **MySQL source database**
@@ -20,7 +20,7 @@ To build an end-to-end streaming pipeline that:
 
 ---
 
-## 🧰 Tools & Skills Used
+## Tools & Skills Used
 
 - **Python** (kafka-python, mysql-connector, Snowflake Connector)
 - **Apache Kafka & Zookeeper**
@@ -32,7 +32,7 @@ To build an end-to-end streaming pipeline that:
 
 ---
 
-## ✅ Key Features
+## Key Features
 
 - ⚙️ Real-time streaming pipeline (MySQL → Kafka → Snowflake)  
 - 🧹 Record-level data cleaning before ingestion  
