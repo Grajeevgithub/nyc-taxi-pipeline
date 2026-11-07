@@ -56,7 +56,7 @@ Implemented in `utils/data_cleaner.py`
 
 ---
 
-## 📊 Source & Target Tables
+##  Source & Target Tables
 
 ### Source: MySQL
 - **Table:** `yellow_taxi_trips`
