@@ -35,7 +35,7 @@ To build an end-to-end streaming pipeline that:
 ## Key Features
 
 -  Real-time streaming pipeline (MySQL → Kafka → Snowflake)  
-- 🧹 Record-level data cleaning before ingestion  
+-  Record-level data cleaning before ingestion  
 - 📦 Batch inserts for high-performance Snowflake loading  
 - 🧠 Fault-tolerant consumer with bad-record handling  
 - 🐳 Fully Dockerized Kafka & Zookeeper setup  
