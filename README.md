@@ -107,7 +107,7 @@ nyc_taxi_pipeline/
 
 ---
 
-## 🖥️ How to Run
+##  How to Run
 
 
 Step 1 — Start Kafka & Zookeeper
