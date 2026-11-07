@@ -117,7 +117,7 @@ python -m nyc_taxi_pipeline.consumer.kafka_snowflake_consumer
 
 ---
 
-## ⚙️ Performance & Tuning
+##  Performance & Tuning
 
 - Batch size of **500 records** for efficient Snowflake inserts  
 - Kafka **consumer group support** for scalability  
