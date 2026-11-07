@@ -83,7 +83,7 @@ Implemented in `utils/data_cleaner.py`
 
 ---
 
-## 📂 Project Folder Structure
+##  Project Folder Structure
 
 nyc_taxi_pipeline/
 │
