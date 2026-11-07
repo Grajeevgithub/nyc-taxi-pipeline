@@ -43,7 +43,7 @@ To build an end-to-end streaming pipeline that:
 
 ---
 
-## 🧹 Data Cleaning Logic
+##  Data Cleaning Logic
 
 Implemented in `utils/data_cleaner.py`
 
