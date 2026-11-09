@@ -13,6 +13,7 @@
 
 
 
+
 from kafka import KafkaProducer
 
 from nyc_taxi_pipeline.config.settings import (
