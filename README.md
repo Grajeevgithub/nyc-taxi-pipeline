@@ -17,6 +17,7 @@
 
 
 
+
 # NYC Taxi Real-Time Data Pipeline (Kafka → Snowflake)
 
 This project demonstrates a complete **real-time Data Engineering pipeline** using **Kafka, Python, Docker, and Snowflake**.  
