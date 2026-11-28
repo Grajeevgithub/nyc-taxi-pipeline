@@ -6,7 +6,6 @@
 
 
 
-
 import json
 from kafka import KafkaConsumer
 import snowflake.connector
